@@ -39,16 +39,5 @@ router.put("/:id", function(req, res) {
 	});
 });
 
-router.put("/:id", function(req, res) {
-	// Updating the burger that the user "devours"
-	var condition = "id = " + req.params.id;
-	console.log("condition", condition);
-
-	// burger.delete({
-	// 	delete: req.body.delete
-	// }, condition, function() {
-	// 	res.redirect("/"); });
-});
-
 // Exporting the router
 module.exports = router;
