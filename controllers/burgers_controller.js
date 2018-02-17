@@ -44,11 +44,10 @@ router.put("/:id", function(req, res) {
 	var condition = "id = " + req.params.id;
 	console.log("condition", condition);
 
-	burger.delete({
-		delete: req.body.delete
-	}, condition, function() {
-		res.redirect("/");
-	});
+	// burger.delete({
+	// 	delete: req.body.delete
+	// }, condition, function() {
+	// 	res.redirect("/"); });
 });
 
 // Exporting the router
