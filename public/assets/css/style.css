@@ -1,0 +1,42 @@
+/*Changing the background color*/
+body {
+	background: #405bf8;
+}
+
+
+#burger-img {
+	max-width: 200px;
+  margin-top: 10px;
+  
+}
+
+#burger-h {
+	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
+}
+
+.burger-text {
+  font-family: 'Abel', cursive;
+  font-size: 16px;
+}
+
+.burger-btn {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 20px;
+}
+
+
+#devoured-text {
+	color: #98978b;
+	background-color: #f8f5f0
+}
+
+.uneaten-list, .eaten-list {
+	max-height: 300px;
+	overflow-y:auto;
+}
+
+.uneaten-list, .eaten-list {
+	max-height: 300px;
+	overflow-y:auto;
+}
