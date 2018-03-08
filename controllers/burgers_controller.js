@@ -21,7 +21,7 @@ router.get("/", function(req, res) {
 router.post("/", function(req, res) {
 	// Adding the user-inputed burger to the database
 	burger.insertOne(
-	    ["burger_name"], [req.body.burger_name], function() {
+	    ["description"], [req.body.burger_name], function() {
 	    // Redirecting to the home page so that the newly added burger is displayed
 	    res.redirect("/");
   	});
